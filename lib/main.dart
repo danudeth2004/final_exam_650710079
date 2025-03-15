@@ -1,3 +1,5 @@
+import 'package:final_exam_650710079/answer1.dart';
+import 'package:final_exam_650710079/answer2.dart';
 import 'package:final_exam_650710079/profile_card.dart';
 import 'package:flutter/material.dart';
 
@@ -18,16 +20,8 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: Scaffold(
-          appBar: AppBar(
-          title: const Text(
-            "Profile",
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-          ),
-          backgroundColor: Colors.blueAccent,
-          ),
-        body: ProfileCard(),
-      ),
+        // home: Answer1()
+        home: Answer2()
     );
   }
 }
